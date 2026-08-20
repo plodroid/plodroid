@@ -1,107 +1,131 @@
 <div align="center">
 
-# yo, i'm plodroid 👋
+<img src="./assets/header.svg" width="100%" alt="Plodroid animated Plexium-style header">
 
-### developer • tech nerd • minecraft creator
+<br>
 
-I build random things because apparently leaving my computer alone is impossible.
+<img src="https://readme-typing-svg.demolab.com?font=DM+Sans&weight=500&size=19&duration=2500&pause=900&color=C87D5C&center=true&vCenter=true&width=760&lines=building+things+that+probably+didn't+need+to+exist;websites+%E2%80%A2+apps+%E2%80%A2+minecraft+%E2%80%A2+ai;currently+running+too+many+projects+at+once;breaking+stuff+until+I+understand+how+it+works" alt="Animated typing intro">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-111111?style=for-the-badge\&logo=firefoxbrowser\&logoColor=white)](https://plodroid.github.io/portfolio.com/)
-[![GitHub](https://img.shields.io/badge/GitHub-plodroid-111111?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/plodroid)
-[![YouTube](https://img.shields.io/badge/YouTube-@plodroid-111111?style=for-the-badge\&logo=youtube\&logoColor=white)](https://youtube.com/@plodroid)
+<br><br>
+
+<a href="https://github.com/plodroid"><img src="https://img.shields.io/badge/GitHub-plodroid-c87d5c?style=for-the-badge&logo=github&logoColor=e6e2da"></a>
+<a href="https://plodroid.github.io/portfolio.com/"><img src="https://img.shields.io/badge/Portfolio-Visit-c87d5c?style=for-the-badge&logo=firefoxbrowser&logoColor=e6e2da"></a>
+<a href="https://youtube.com/@plodroid"><img src="https://img.shields.io/badge/YouTube-@plodroid-c87d5c?style=for-the-badge&logo=youtube&logoColor=e6e2da"></a>
 
 </div>
 
 ---
 
-## 👋 about me
+## ✦ hello
 
 ```txt
-name      = plodroid
-interests = coding, pcs, minecraft, ui design, ai
-currently = building way too many projects at once
-favorite  = making things that probably didn't need to exist
+┌─────────────────────────────────────────────┐
+│ plodroid                                    │
+│                                             │
+│ role       developer / creator              │
+│ interests  tech • minecraft • ui • ai       │
+│ status     probably debugging something     │
+│ weakness   starting another project         │
+└─────────────────────────────────────────────┘
 ```
 
-I'm into **software, PC hardware, web development, Minecraft, AI, UI/UX, and generally messing with technology until it does something cool**.
+I make **apps, websites, Minecraft tools, experiments, UI concepts and random software**.
 
-I like building my own apps, websites, game tools, Minecraft projects, and experiments.
+Most of my projects begin with:
 
----
+> "wait... couldn't I just make that myself?"
 
-## ⚡ what i use
-
-### languages
-
-![HTML](https://img.shields.io/badge/HTML5-111111?style=flat-square\&logo=html5)
-![CSS](https://img.shields.io/badge/CSS3-111111?style=flat-square\&logo=css)
-![JavaScript](https://img.shields.io/badge/JavaScript-111111?style=flat-square\&logo=javascript)
-![C#](https://img.shields.io/badge/C%23-111111?style=flat-square\&logo=csharp)
-![Java](https://img.shields.io/badge/Java-111111?style=flat-square\&logo=openjdk)
-![Python](https://img.shields.io/badge/Python-111111?style=flat-square\&logo=python)
-
-### tools & platforms
-
-![Git](https://img.shields.io/badge/Git-111111?style=flat-square\&logo=git)
-![GitHub](https://img.shields.io/badge/GitHub-111111?style=flat-square\&logo=github)
-![VS Code](https://img.shields.io/badge/VS_Code-111111?style=flat-square\&logo=visualstudiocode)
-![Node.js](https://img.shields.io/badge/Node.js-111111?style=flat-square\&logo=nodedotjs)
-![Electron](https://img.shields.io/badge/Electron-111111?style=flat-square\&logo=electron)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-111111?style=flat-square\&logo=cloudflare)
-![Windows](https://img.shields.io/badge/Windows-111111?style=flat-square\&logo=windows11)
-![Minecraft](https://img.shields.io/badge/Minecraft-111111?style=flat-square\&logo=createreactapp)
+...and then somehow become an entire repository.
 
 ---
 
-# 🚀 projects
+<div align="center">
+
+## ✦ currently building
+
+</div>
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🌐 [Plexium](https://github.com/plodroid/Plexium)
+<div align="center">
 
-My custom browser project.
+### ◇ [Plexium](https://github.com/plodroid/Plexium)
 
-Built around a clean interface, custom features, animations, and a UI that doesn't look like it escaped from Windows Vista.
+<!-- Add your logo later:
+<img src="./assets/logos/plexium-logo.png" width="72" alt="Plexium logo">
+-->
 
-**Tech:** Electron • HTML • CSS • JavaScript
+**custom browser project**
+
+</div>
+
+A browser built around clean UI, animations, custom tools and a more personal browsing experience.
+
+`Electron` `JavaScript` `HTML` `CSS`
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🧱 [ItemStudio](https://github.com/plodroid/ItemStudio)
+<div align="center">
 
-A Minecraft item and command creation tool.
+### ◇ [ItemStudio](https://github.com/plodroid/ItemStudio)
 
-Designed to make creating custom Minecraft items and commands way easier.
+<!-- Add your logo later:
+<img src="./assets/logos/itemstudio-logo.png" width="72" alt="ItemStudio logo">
+-->
 
-**Tech:** Web • Minecraft • JavaScript
+**Minecraft item tooling**
+
+</div>
+
+A web tool for generating Minecraft items and commands without manually fighting command syntax.
+
+`Minecraft` `JavaScript` `Web`
 
 </td>
 </tr>
 
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🔎 [Plexity](https://github.com/plodroid/plexity)
+<div align="center">
 
-An experimental search project combining web search and AI.
+### ◇ [Plexity](https://github.com/plodroid/plexity)
 
-Basically me asking:
+<!-- Add your logo later:
+<img src="./assets/logos/plexity-logo.png" width="72" alt="Plexity logo">
+-->
 
-> "what if I just made my own search engine?"
+**search experiment**
 
-**Tech:** JavaScript • Cloudflare • APIs
+</div>
+
+An experimental search project combining web results, APIs and AI.
+
+> what if I made my own search engine?
+
+`Cloudflare` `JavaScript` `APIs`
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🎨 [Portfolio](https://github.com/plodroid/portfolio.com)
+<div align="center">
 
-My personal website showcasing my projects, designs, Minecraft work, thumbnails, and other creations.
+### ◇ [Portfolio](https://github.com/plodroid/portfolio.com)
 
-**Tech:** HTML • CSS • JavaScript
+<!-- Add your logo later:
+<img src="./assets/logos/portfolio-logo.png" width="72" alt="Portfolio logo">
+-->
+
+**my work on one page**
+
+</div>
+
+Projects, designs, thumbnails, Minecraft work and everything else I've made.
+
+`HTML` `CSS` `JavaScript`
 
 </td>
 </tr>
@@ -109,54 +133,86 @@ My personal website showcasing my projects, designs, Minecraft work, thumbnails,
 
 ---
 
-## 🧠 currently learning
-
-* better **JavaScript & TypeScript**
-* backend development
-* APIs and cloud infrastructure
-* C# desktop applications
-* Java & Minecraft plugin/mod development
-* UI/UX and animation
-* PC hardware & system management
-* somehow finishing one project before starting another
-
----
-
-## 🎮 when i'm not coding
-
-You'll probably find me:
-
-```txt
-⛏️ playing Minecraft
-🖥️ messing with my PC
-🎨 designing something
-🔧 tweaking Windows
-🌐 making another website
-🤖 experimenting with AI
-📦 starting yet another GitHub repository
-```
-
----
-
-## 📊 github
-
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=plodroid&show_icons=true&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=aaaaaa&icon_color=ffffff" />
+## ✦ stack
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=plodroid&layout=compact&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=aaaaaa" />
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,nodejs,electron,cs,java,python,git,github,vscode,cloudflare&theme=dark" alt="Tech stack icons">
+
+<br><br>
+
+`web` • `desktop apps` • `minecraft` • `apis` • `ui / ux` • `automation`
 
 </div>
 
 ---
 
-## 🏆 achievements
+## ✦ visual showcase
+
+I left these slots ready for your own GIFs/screenshots. Add the files, then uncomment the matching image line.
+
+<table>
+<tr>
+<td width="50%" align="center" valign="top">
+
+### Plexium
+
+<!-- <img src="./assets/gifs/plexium.gif" width="100%" alt="Plexium showcase"> -->
+
+`assets/gifs/plexium.gif`
+
+</td>
+<td width="50%" align="center" valign="top">
+
+### Minecraft
+
+<!-- <img src="./assets/gifs/minecraft.gif" width="100%" alt="Minecraft showcase"> -->
+
+`assets/gifs/minecraft.gif`
+
+</td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top">
+
+### Coding / UI
+
+<!-- <img src="./assets/gifs/coding.gif" width="100%" alt="Coding showcase"> -->
+
+`assets/gifs/coding.gif`
+
+</td>
+<td width="50%" align="center" valign="top">
+
+### Main showcase
+
+<!-- <img src="./assets/gifs/showcase.gif" width="100%" alt="Main showcase"> -->
+
+`assets/gifs/showcase.gif`
+
+</td>
+</tr>
+</table>
+
+---
 
 <div align="center">
 
-🧠 **Galaxy Brain**   •   🤠 **Quickdraw**   •   🌈 **YOLO**
+## ✦ achievements
 
-<sub>the shark is taking its sweet time 🦈...</sub>
+<br>
+
+<a href="https://github.com/plodroid?tab=achievements"><img src="https://img.shields.io/badge/GALAXY_BRAIN-unlocked-c87d5c?style=for-the-badge"></a>
+<a href="https://github.com/plodroid?tab=achievements"><img src="https://img.shields.io/badge/QUICKDRAW-unlocked-c87d5c?style=for-the-badge"></a>
+<a href="https://github.com/plodroid?tab=achievements"><img src="https://img.shields.io/badge/YOLO-unlocked-c87d5c?style=for-the-badge"></a>
+
+<br><br>
+
+🧠 **Galaxy Brain** &nbsp; • &nbsp; 🤠 **Quickdraw** &nbsp; • &nbsp; 🌈 **YOLO**
+
+<br>
+
+<sub>🦈 Pull Shark currently lost somewhere in GitHub's backend</sub>
 
 </div>
 
@@ -164,10 +220,115 @@ You'll probably find me:
 
 <div align="center">
 
-### thanks for stopping by 👋
+## ✦ github activity
 
-*building stuff, breaking stuff, then figuring out why it broke.*
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=plodroid&show_icons=true&hide_border=true&bg_color=1b1b18&title_color=c87d5c&text_color=b5b0a5&icon_color=e8966e" alt="GitHub stats">
 
-![Profile Views](https://komarev.com/ghpvc/?username=plodroid\&style=flat-square\&label=profile+views)
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=plodroid&layout=compact&hide_border=true&bg_color=1b1b18&title_color=c87d5c&text_color=b5b0a5" alt="Top languages">
+
+<br>
+
+<img src="https://streak-stats.demolab.com?user=plodroid&hide_border=true&background=1B1B18&ring=C87D5C&fire=E8966E&currStreakLabel=C87D5C&sideLabels=B5B0A5&currStreakNum=E6E2DA&sideNums=E6E2DA&dates=7D7A71" alt="GitHub streak">
 
 </div>
+
+---
+
+<div align="center">
+
+## 👾 contribution arcade
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/plodroid/plodroid/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/plodroid/plodroid/output/pacman-contribution-graph.svg">
+  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/plodroid/plodroid/output/pacman-contribution-graph.svg" width="100%">
+</picture>
+
+</div>
+
+---
+
+<div align="center">
+
+## ✦ currently learning
+
+`better JavaScript / TypeScript`
+
+`backend development`
+
+`APIs + cloud infrastructure`
+
+`C# desktop apps`
+
+`Java + Minecraft plugin/mod development`
+
+`UI / UX + motion`
+
+`PC hardware + system management`
+
+</div>
+
+---
+
+<div align="center">
+
+## ✦ random facts
+
+`⛏ minecraft`
+
+`🖥 pc hardware`
+
+`🎨 ui design`
+
+`🌐 web development`
+
+`🤖 ai experiments`
+
+`🔧 windows tweaking`
+
+`📦 creating repositories instead of finishing the previous repository`
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=plodroid&label=profile+views&color=c87d5c&style=for-the-badge" alt="Profile views">
+
+<br><br>
+
+### building • breaking • learning • repeating
+
+<sub>thanks for visiting ✦</sub>
+
+</div>
+
+<!--
+============================================================
+ASSET ROOT / QUICK EDIT GUIDE
+============================================================
+Repository root: plodroid/plodroid/
+
+assets/header.svg
+  -> animated Plexium-style header already enabled
+
+assets/logos/
+  -> drop PNG/SVG project logos here
+
+assets/gifs/
+  -> drop GIF/WebP animations here
+
+assets/screenshots/
+  -> drop screenshots here
+
+To show an image:
+<img src="./assets/logos/example.png" width="80">
+
+To show a GIF:
+<img src="./assets/gifs/example.gif" width="100%">
+
+Delete any section you do not want. GitHub README files do not run
+custom JavaScript/CSS, so visual effects are done with SVG/GIF/cards.
+============================================================
+-->
