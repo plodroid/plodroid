@@ -1,61 +1,62 @@
-<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#1B1B18"/>
-      <stop offset="0.55" stop-color="#242420"/>
-      <stop offset="1" stop-color="#1B1B18"/>
+    <linearGradient id="bg" x1="70" y1="20" x2="1130" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1B1B18" stop-opacity="0.72"/>
+      <stop offset="0.5" stop-color="#242420" stop-opacity="0.58"/>
+      <stop offset="1" stop-color="#1B1B18" stop-opacity="0.68"/>
     </linearGradient>
-    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(250 40) rotate(23) scale(420 260)">
-      <stop stop-color="#E8966E" stop-opacity="0.38"/>
+    <radialGradient id="peach" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(245 65) rotate(20) scale(410 210)">
+      <stop stop-color="#E8966E" stop-opacity="0.28"/>
       <stop offset="1" stop-color="#E8966E" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(950 290) rotate(-155) scale(420 250)">
-      <stop stop-color="#C87D5C" stop-opacity="0.25"/>
-      <stop offset="1" stop-color="#C87D5C" stop-opacity="0"/>
+    <radialGradient id="cream" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(900 225) rotate(170) scale(420 220)">
+      <stop stop-color="#E6E2DA" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#E6E2DA" stop-opacity="0"/>
     </radialGradient>
-    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="28"/>
-    </filter>
-    <filter id="shadow" x="-20%" y="-40%" width="140%" height="180%">
-      <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#000000" flood-opacity="0.38"/>
-    </filter>
-    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#FFFFFF" stop-opacity="0.10"/>
-      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.025"/>
+    <linearGradient id="glass" x1="110" y1="70" x2="1080" y2="230" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.075"/>
+      <stop offset="0.42" stop-color="#FFFFFF" stop-opacity="0.018"/>
+      <stop offset="0.7" stop-color="#C87D5C" stop-opacity="0.050"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.035"/>
     </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="30"/></filter>
+    <filter id="soft" x="-20%" y="-30%" width="140%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="24" flood-color="#000" flood-opacity="0.24"/></filter>
+    <clipPath id="clip"><rect x="74" y="48" width="1052" height="204" rx="38"/></clipPath>
   </defs>
 
-  <rect width="1200" height="320" rx="28" fill="url(#bg)"/>
-  <ellipse cx="255" cy="36" rx="315" ry="170" fill="url(#glowA)" filter="url(#blur)">
-    <animate attributeName="cx" values="255;340;255" dur="8s" repeatCount="indefinite"/>
+  <rect width="1200" height="300" rx="30" fill="url(#bg)"/>
+
+  <ellipse cx="245" cy="65" rx="340" ry="150" fill="url(#peach)" filter="url(#blur)">
+    <animate attributeName="cx" values="245;360;245" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="65;95;65" dur="11s" repeatCount="indefinite"/>
   </ellipse>
-  <ellipse cx="930" cy="290" rx="330" ry="160" fill="url(#glowB)" filter="url(#blur)">
-    <animate attributeName="cx" values="930;850;930" dur="10s" repeatCount="indefinite"/>
+  <ellipse cx="930" cy="220" rx="350" ry="155" fill="url(#cream)" filter="url(#blur)">
+    <animate attributeName="cx" values="930;820;930" dur="12s" repeatCount="indefinite"/>
   </ellipse>
 
-  <g filter="url(#shadow)">
-    <rect x="92" y="66" width="1016" height="188" rx="34" fill="url(#glass)" stroke="#E6E2DA" stroke-opacity="0.12"/>
-    <rect x="108" y="82" width="984" height="156" rx="26" stroke="#FFFFFF" stroke-opacity="0.04"/>
+  <g filter="url(#soft)">
+    <rect x="74" y="48" width="1052" height="204" rx="38" fill="url(#glass)" stroke="#E6E2DA" stroke-opacity="0.11"/>
+    <rect x="88" y="62" width="1024" height="176" rx="30" stroke="#FFFFFF" stroke-opacity="0.045"/>
   </g>
 
-  <circle cx="144" cy="112" r="6" fill="#C87D5C">
-    <animate attributeName="opacity" values="0.45;1;0.45" dur="2.5s" repeatCount="indefinite"/>
-    <animate attributeName="r" values="6;9;6" dur="2.5s" repeatCount="indefinite"/>
-  </circle>
-  <text x="165" y="119" fill="#C87D5C" font-size="16" font-family="Segoe UI, Arial, sans-serif" font-weight="700" letter-spacing="2">ONLINE / BUILDING</text>
-
-  <text x="600" y="174" text-anchor="middle" fill="#E6E2DA" font-size="70" font-family="Georgia, Times New Roman, serif" font-weight="400" letter-spacing="3">PLODROID</text>
-  <text x="600" y="213" text-anchor="middle" fill="#B5B0A5" font-size="19" font-family="Segoe UI, Arial, sans-serif" letter-spacing="1.5">developer  •  tech nerd  •  minecraft creator</text>
-
-  <g opacity="0.5">
-    <circle cx="1028" cy="110" r="10" fill="#C87D5C">
-      <animate attributeName="cy" values="110;101;110" dur="3.7s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1060" cy="132" r="5" fill="#E8966E">
-      <animate attributeName="cy" values="132;140;132" dur="4.2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1000" cy="146" r="4" fill="#E6E2DA" fill-opacity="0.4">
-      <animate attributeName="cy" values="146;138;146" dur="4.8s" repeatCount="indefinite"/>
-    </circle>
+  <g clip-path="url(#clip)" opacity="0.65">
+    <rect x="-340" y="45" width="260" height="210" fill="url(#shine)" transform="skewX(-18)">
+      <animate attributeName="x" values="-340;1360" dur="8s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="180" cy="95" r="7" fill="#E8966E" fill-opacity="0.38"><animate attributeName="cy" values="95;80;95" dur="4.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1030" cy="190" r="10" fill="#C87D5C" fill-opacity="0.28"><animate attributeName="cy" values="190;207;190" dur="5.2s" repeatCount="indefinite"/></circle>
+    <circle cx="960" cy="92" r="5" fill="#E6E2DA" fill-opacity="0.22"><animate attributeName="cx" values="960;980;960" dur="6s" repeatCount="indefinite"/></circle>
   </g>
+
+  <text x="600" y="150" text-anchor="middle" fill="#E6E2DA" font-size="72" font-family="Georgia, 'Times New Roman', serif" font-weight="400" letter-spacing="4">PLODROID</text>
+  <text x="600" y="192" text-anchor="middle" fill="#B5B0A5" font-size="19" font-family="Segoe UI, Arial, sans-serif" letter-spacing="1.5">developer  •  tech  •  minecraft  •  linux</text>
+
+  <path d="M210 220 C390 232 810 208 990 220" stroke="#C87D5C" stroke-opacity="0.20" stroke-width="1.2" fill="none">
+    <animate attributeName="stroke-opacity" values="0.12;0.34;0.12" dur="4s" repeatCount="indefinite"/>
+  </path>
 </svg>
